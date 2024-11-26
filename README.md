@@ -54,7 +54,7 @@ pip install transformers datasets librosa evaluate jiwer gradio
 ---
 ### How to Use
 #### Step 1: Clone the Repository
-```bash
+```
 git clone https://github.com/sazzad1779/Whisper_Finetune.git
 cd Whisper_Finetune
 ```
@@ -64,13 +64,13 @@ Ensure your dataset is structured with audio files and corresponding transcripti
 #### Step 3: Run the Pipeline
 Modify and execute the training script:
 
-``bash
+``
 python train.py
 ``
 #### Step 4: Evaluate the Model
 Once training is complete, run the evaluation script to calculate Word Error Rate (WER):
 
-``bash
+``
 python evaluate.py
 ``
 
