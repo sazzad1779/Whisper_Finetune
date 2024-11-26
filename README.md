@@ -73,4 +73,12 @@ Once training is complete, run the evaluation script to calculate Word Error Rat
 ``
 python evaluate.py
 ``
+---
+### Results
+- The fine-tuned model achieves improved transcription accuracy on the custom dataset.
+- Word Error Rate (WER) is used as the primary evaluation metric.
+### Future Work
+Add data augmentation for robustness.
+Experiment with advanced evaluation metrics.
+Extend the pipeline to handle multimodal tasks.
 
