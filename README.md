@@ -1,6 +1,6 @@
-<h3>Whisper_Finetune</h3>
+<h1>Whisper_Finetune</h1>
 
-# Whisper Model Fine-Tuning Pipeline
+### Whisper Model Fine-Tuning Pipeline
 
 This repository contains a streamlined pipeline for fine-tuning OpenAI's Whisper model on custom audio datasets. The pipeline has been designed for flexibility, efficiency, and ease of use, focusing on key steps required to train and evaluate a speech-to-text system.
 
@@ -8,7 +8,7 @@ This repository contains a streamlined pipeline for fine-tuning OpenAI's Whisper
 
 ---
 
-## Pipeline Overview
+#### Pipeline Overview
 
 The fine-tuning pipeline consists of the following steps:
 
@@ -28,7 +28,7 @@ The fine-tuning pipeline consists of the following steps:
 
 ---
 
-## Data Processing Details
+#### Data Processing Details
 
 The dataset is processed in the following steps:
 1. Convert all audio files to 16 kHz.
@@ -38,7 +38,7 @@ The dataset is processed in the following steps:
 
 ---
 
-## Prerequisites
+#### Prerequisites
 
 - Python 3.8 or later
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
@@ -52,22 +52,22 @@ pip install transformers datasets librosa evaluate jiwer gradio
 ```
 
 ---
-# How to Use
-## Step 1: Clone the Repository
+### How to Use
+#### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/sazzad1779/Whisper_Finetune.git
 cd Whisper_Finetune
 ```
-## Step 2: Prepare the Dataset
+#### Step 2: Prepare the Dataset
 Ensure your dataset is structured with audio files and corresponding transcriptions. Update the script to point to your dataset directory or Hugging Face dataset.
 
-## Step 3: Run the Pipeline
+#### Step 3: Run the Pipeline
 Modify and execute the training script:
 
 ``bash
 python train.py
 ``
-## Step 4: Evaluate the Model
+#### Step 4: Evaluate the Model
 Once training is complete, run the evaluation script to calculate Word Error Rate (WER):
 
 ``bash
